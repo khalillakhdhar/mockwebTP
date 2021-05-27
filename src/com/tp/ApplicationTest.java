@@ -26,6 +26,13 @@ InscriptionService inscription;
 @Mock
 DatabaseDao stub;
 @Test
+public void verifage()
+{
+assertTrue(inscription.verifage(12));	
+
+
+}
+@Test
 public void addUser()
 {
 	User us=new User(1,"khalil","lakhdhar","khalil@test.com","teste",98,30);
