@@ -1,11 +1,11 @@
 package com.tp.dao;
 
-import org.apache.catalina.User;
+import com.tp.entities.User;
 
 public class DatabaseDao {
-public void saveUser(User user)
+public void saveUser(User us)
 {
-System.out.println("Ajouté avec succés " +user.toString());
+System.out.println("Ajouté avec succés " +us.toString());
 
 }
 }
